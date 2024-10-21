@@ -1,0 +1,76 @@
+#greetings_container{
+    text-align: center;
+}
+
+.ToDo_Main_container {
+    max-width: auto; /* Max width of container */
+    margin: 0 auto; /* Center container */
+    padding: 20px; /* Space inside container */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+h2 {
+    text-align: center; /* Center heading */
+    color: #333; /* Darker text color */
+}
+
+p {
+    text-align: center; /* Center paragraph */
+    color: #666; /* Gray text color */
+}
+
+input[type="text"] {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Space inside input */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.submit_button {
+    background-color: #007bff; /* Blue background for button */
+    color: white; /* White text for button */
+    border: none; /* No border for button */
+    padding: 10px; /* Space inside button */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text for button */
+}
+
+.submit_button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.task_display {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding inside the box */
+    margin-top: 20px; /* Space above the task list */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.task_display div {
+    border-bottom: 1px solid #e0e0e0; /* Divider line between tasks */
+    padding: 10px 0; /* Space above and below each task */
+}
+
+.task_display div:last-child {
+    border-bottom: none; /* Remove line from last task */
+}
+
+.task_display h4 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.2em; /* Slightly larger font for task title */
+    color: #333; /* Darker color for better contrast */
+}
+
+.task_display p {
+    margin: 5px 0 0; /* Space only above description */
+    color: #666; /* Gray color for description text */
+    font-style: italic; /* Italic style for description */
+}
+
